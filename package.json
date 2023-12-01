@@ -7,8 +7,9 @@
     "dev": "next dev",
     "start": "next start",
     "test": "jest --watchAll",
+    "ci:test": "jest",
     "cypress": "cypress open",
-    "cypress:headless": "cypress run"
+    "cypress:headless": "cypress run"  
   },
   "dependencies": {
     "iron-session": "^6.2.0",
